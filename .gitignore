@@ -1,0 +1,16 @@
+*__pycache__*
+**/__pycache__**
+*/__pycache__/*
+**.sublime-*
+*.py[cod]
+.streamlit/**
+.Trash-*
+.ipynb_checkpoints
+*.log
+*.so
+
+*.ipynb
+./utils/testing.py
+
+**/cache**
+/cache/*
