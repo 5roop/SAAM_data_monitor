@@ -12,7 +12,9 @@ utils/
     acquire.py # Downloading, caching, preformatting
     plot.py # Plotting
 ```
-When run, it allows the user to log in and chose functionality. Relevant data is downloaded from the SAAM database and cached locally. All the data is processed and displayed, which is why the 
+When run, it allows the user to log in and chose functionality. Relevant data is downloaded from the SAAM database and cached where the `streamlit` app is running. 
+
+
 # Features
 
 The `streamlit` app can be run with 
@@ -32,7 +34,13 @@ Possible choices are:
 * Raw magnitude from wearable MicroHub sensors visualization ![a plot showing recorded magnitudes from wearable sensors](/images/raw_magnitude.png "Raw MicroHub magnitudes")
 * Power meter features ![a plot of detected events in PMC pipeline](/images/PMC_1.jpg "PMC events and cooking coachings")
 
+The same plots can also be obtained with the funcitons in `utils` directory:
+![picture showing code and the resulting plot](/images/scripting_status.png "Example code for plotting all relevant sensory features available for the location and timeframe")
 
+For the `activity_cooking` a separate plot was prepared, showing only data, relevant for this pipeline and overlaying coaching data over it.
+![](/images/scripting_PMC.png "Example for visualizing powermeter data.")
+
+![](images/scripting_status.png )
 
 # Contact
 
