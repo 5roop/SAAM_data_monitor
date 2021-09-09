@@ -4,6 +4,15 @@ Data Monitor for SAAM pilot.
 
 The credentials file has been removed for publishing, so in its current form the tools are not directly usable.
 
+The project can be summed up with these main files:
+```
+app.py # Streamlit application
+auth.py # Handles the user authentification
+utils/
+    acquire.py # Downloading, caching, preformatting
+    plot.py # Plotting
+```
+When run, it allows the user to log in and chose functionality. Relevant data is downloaded from the SAAM database and cached locally. All the data is processed and displayed, which is why the 
 # Features
 
 The `streamlit` app can be run with 
