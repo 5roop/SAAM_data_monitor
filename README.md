@@ -1,6 +1,8 @@
 # damon
 
-Data Monitor for SAAM pilot.
+Data Monitor for [SAAM](https://saam2020.eu/) project.
+
+This tool was created to visualize the data coming in during the SAAM project.
 
 The credentials file has been removed for publishing, so in its current form the tools are not directly usable.
 
@@ -22,7 +24,7 @@ The `streamlit` app can be run with
 streamlit run app.py
 ```
 The resulting browser window features the login window:
-![picture of a browser window with a rudimentary login page](/images/login.png "Login Window").
+![picture of a browser window with a rudimentary login page](/images/login.png "Login Window")
 
 After logging in the user can choose a few quick presets or input the start and end times and the datasources they want visualized.
 
@@ -44,4 +46,4 @@ For the `activity_cooking` a separate plot was prepared, showing only data, rele
 
 # Contact
 
-Lead maintainer: Peter Rupnik, peter.rupnik@ijs.si . Drop me a line anytime.
+Maintainer: Peter Rupnik, peter.rupnik AT ijs.si . Drop me a line anytime.
